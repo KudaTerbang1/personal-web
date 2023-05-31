@@ -1,4 +1,5 @@
 ErrorDocument 404 https://krepowo.my.id/404
+/style.css    /404.html    404
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f

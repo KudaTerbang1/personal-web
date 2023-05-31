@@ -1,6 +1,6 @@
-ErrorDocument 404 https://krepowo.my.id/404
-/style.css    /404.html    404
+ErrorDocument 404 404.html
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule ^style\.css$ 404.html [L]
